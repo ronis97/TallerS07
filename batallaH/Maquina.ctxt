@@ -1,3 +1,9 @@
 #BlueJ class context
 comment0.target=Maquina
-numComments=1
+comment1.params=dLon\ dLat
+comment1.target=void\ avance(int,\ int)
+comment2.params=longitud\ latitud
+comment2.target=boolean\ seraDestruida(int,\ int)
+comment3.params=
+comment3.target=boolean\ maquinaDebil()
+numComments=4
