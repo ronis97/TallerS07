@@ -22,4 +22,7 @@ public class Maquina {
     public boolean maquinaDebil(){
         return false;
     }
+    public boolean autoDestruccion(){
+        return false;
+    }
 }
