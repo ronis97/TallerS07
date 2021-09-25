@@ -1,8 +1,8 @@
  
 
-public class Avion{
-	private String placa;
-	private boolean enAire;
-	private Marino piloto;
-	private Marino copiloto;
+public class Avion extends Maquina{
+    private String placa;
+    private boolean enAire;
+    private Marino piloto;
+    private Marino copiloto;
 }
