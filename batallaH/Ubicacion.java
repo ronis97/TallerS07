@@ -3,10 +3,24 @@
 public class Ubicacion {
     private int longitud;
     private int latitud;
-    public int getlongitud(){
+    public int getLongitud(){
         return longitud;
     }
-    public int getlatitud(){
+    public void setLongitud(int longitud){
+        this.longitud = longitud;
+    }
+    public int getLatitud(){
         return latitud;
+    }
+    public void setLatitud(int latitud){
+        this.latitud = latitud;
+    }
+    public void alNorte() throws BatallaNavalExcepcion{
+        if (latitud <= 90){
+            latitud ++;
+        }
+        else{
+            throw new BatallaNavalExcepcion(BatallaNavalException.NO_SE_PUDO_MOVER_AL_NORTE);
+        }
     }
 }

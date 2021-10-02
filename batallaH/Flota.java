@@ -12,7 +12,9 @@ public class Flota {
      * This method moves the fleet one position north
      */
     public void alNorte(){
-        
+        for (Maquina m: maquinas){
+            m.alNorte();
+        }
     }
     /**
      * This method move all machines the defined distance

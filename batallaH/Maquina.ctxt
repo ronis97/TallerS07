@@ -9,4 +9,6 @@ comment2.text=\r\n\ \r\n
 comment3.params=
 comment3.target=boolean\ maquinaDebil()
 comment3.text=\r\n\ \r\n
-numComments=4
+comment4.params=
+comment4.target=boolean\ autoDestruccion()
+numComments=5
