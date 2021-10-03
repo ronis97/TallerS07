@@ -20,7 +20,7 @@ public class Ubicacion {
             latitud ++;
         }
         else{
-            throw new BatallaNavalExcepcion(BatallaNavalException.NO_SE_PUDO_MOVER_AL_NORTE);
+            throw new BatallaNavalExcepcion(BatallaNavalExcepcion.NO_SE_PUDO_MOVER);
         }
     }
 }

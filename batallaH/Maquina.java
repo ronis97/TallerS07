@@ -2,6 +2,8 @@
 
 public class Maquina {
     private Ubicacion ubicacion;
+    private boolean esDebil;
+    private String causaAutodestruccion;
     /**
      * 
      */
@@ -12,8 +14,8 @@ public class Maquina {
      * 
      */
     public boolean seraDestruida(int longitud, int latitud){
-        if (ubicacion.getlongitud() == longitud 
-            && ubicacion.getlatitud() == latitud) return true;
+        if (ubicacion.getLongitud() == longitud 
+            && ubicacion.getLongitud() == latitud) return true;
         return false;
     }
     /**
@@ -25,7 +27,7 @@ public class Maquina {
     public boolean autoDestruccion(){
         return false;
     }
-    public void alNorte(){
-        Ubicacion.alNorte();
+    public void alNorte() throws BatallaNavalExcepcion{
+        ubicacion.alNorte();
     }
 }

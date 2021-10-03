@@ -11,4 +11,6 @@ comment3.target=boolean\ maquinaDebil()
 comment3.text=\r\n\ \r\n
 comment4.params=
 comment4.target=boolean\ autoDestruccion()
-numComments=5
+comment5.params=
+comment5.target=void\ alNorte()
+numComments=6

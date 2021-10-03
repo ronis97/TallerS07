@@ -11,15 +11,11 @@ public class Flota {
     /**
      * This method moves the fleet one position north
      */
-<<<<<<< HEAD
-    public void alNorte() throws BatallaNavalException{
-        
-=======
-    public void alNorte(){
+
+    public void alNorte() throws BatallaNavalExcepcion{
         for (Maquina m: maquinas){
             m.alNorte();
         }
->>>>>>> 1243ec993f87001bde363ab1bc0f2c487e77cf8c
     }
     /**
      * This method move all machines the defined distance
@@ -81,10 +77,10 @@ public class Flota {
             i.avance(lon, lat);
         }
     }
-    public ArrayList<Marino> pilotos() throws BatallaNavalException{
+    public ArrayList<Marino> pilotos() throws BatallaNavalExcepcion{
         return null;
     }    
-    public int potencia() throws BatallaNavalException{
+    public int potencia() throws BatallaNavalExcepcion{
         return 0;
     }
     

@@ -18,4 +18,7 @@ public class Tablero {
     public ArrayList<Flota> infiltrados() throws BatallaNavalExcepcion{
         return null;
     }
+    public int potencia() throws BatallaNavalExcepcion{
+        return 0;
+    }
 }
