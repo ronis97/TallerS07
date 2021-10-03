@@ -11,7 +11,7 @@ public class Flota {
     /**
      * This method moves the fleet one position north
      */
-    public void alNorte(){
+    public void alNorte() throws BatallaNavalException{
         
     }
     /**
@@ -73,6 +73,12 @@ public class Flota {
         for (Maquina i: maquinas){
             i.avance(lon, lat);
         }
+    }
+    public ArrayList<Marino> pilotos() throws BatallaNavalException{
+        return null;
+    }    
+    public int potencia() throws BatallaNavalException{
+        return 0;
     }
     
     //Incluya el contenedor de maquinas
