@@ -19,8 +19,12 @@ comment5.text=\r\n\ This\ method\ attack\ location\ verification\r\n\ (Destroy\ 
 comment6.params=lon\ lat
 comment6.target=void\ ataquen(int,\ int)
 comment6.text=\r\n\ This\ method\ moves\ all\ machines\ that\ are\ not\ weak\ step\ by\ step\ \r\n\ (one\ by\ one)\ towards\ the\ indicated\ position\ to\ attack.\r\n\ @\ param\ lon,\ lon\ is\ the\ lenght\ the\ new\ position\ to\ attack.\r\n\ @\ param\ lat,\ lat\ is\ the\ latitude\ the\ new\ position\ to\ attack.\r\n
+<<<<<<< HEAD
 comment7.params=
 comment7.target=java.util.ArrayList\ pilotos()
 comment8.params=
 comment8.target=int\ potencia()
 numComments=9
+=======
+numComments=7
+>>>>>>> 1243ec993f87001bde363ab1bc0f2c487e77cf8c

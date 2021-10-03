@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=BatallaNavalExcepcion
+<<<<<<< HEAD
+=======
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BatallaNavalExcepcion\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+>>>>>>> 1243ec993f87001bde363ab1bc0f2c487e77cf8c
 comment1.params=message
 comment1.target=BatallaNavalExcepcion(java.lang.String)
 numComments=2

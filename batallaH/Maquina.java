@@ -25,4 +25,7 @@ public class Maquina {
     public boolean autoDestruccion(){
         return false;
     }
+    public void alNorte(){
+        Ubicacion.alNorte();
+    }
 }

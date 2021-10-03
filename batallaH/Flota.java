@@ -11,8 +11,15 @@ public class Flota {
     /**
      * This method moves the fleet one position north
      */
+<<<<<<< HEAD
     public void alNorte() throws BatallaNavalException{
         
+=======
+    public void alNorte(){
+        for (Maquina m: maquinas){
+            m.alNorte();
+        }
+>>>>>>> 1243ec993f87001bde363ab1bc0f2c487e77cf8c
     }
     /**
      * This method move all machines the defined distance
